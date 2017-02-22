@@ -4,7 +4,8 @@
   an issue! */
 {
   "name" : "rehydrate",
-  "ppx-flags": ["reactjs_jsx_ppx"],
+  "ppx-flags": ["bs-platform/bin/reactjs_jsx_ppx.exe"],
+   "refmt" : "bs-platform/bin/refmt.exe",
   "bs-dependencies": ["reason-js"],
   "sources": [
     "src",
